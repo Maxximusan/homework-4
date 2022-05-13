@@ -111,7 +111,7 @@ padding-bottom: 32px;
 }
 /* подсветка навигации на 2х страницах */
 .current {
-    color: #2196F3
+    color;: #2196F3
 }
 
 
@@ -147,9 +147,22 @@ padding-bottom: 32px;
 .header-contacts:focus{
     color: #2196F3;
 }
-/* .header-icon{
-  width: 16px;
-} */
+.header-contacts:hover .header-icon,
+.header-contacts:focus .header-icon{
+    fill: #2196F3;
+}
+
+
+.header-icon{
+  
+  margin-right: 10px;
+}
+.mail-icon{
+width: 16px;
+}
+.tel-icon{
+width: 10px;
+}
 /* hero and main*/
 .hero-section{
 text-align: center;
