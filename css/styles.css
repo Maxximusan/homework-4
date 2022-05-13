@@ -117,10 +117,11 @@ padding-bottom: 32px;
 
 .group-list{
    display: flex;
-   margin-left: auto;
+   align-items: center;
+      margin-left: auto;
 }
 .group-item{
-    margin-right: 50px;
+    margin-right: 30px;
    
 }
 .group-item:last-child {
@@ -135,7 +136,9 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration:none;
 
-display: block;
+display: flex;
+align-items: center;
+
 padding-top: 32px;
 padding-bottom: 32px;
 }
@@ -144,7 +147,9 @@ padding-bottom: 32px;
 .header-contacts:focus{
     color: #2196F3;
 }
-
+/* .header-icon{
+  width: 16px;
+} */
 /* hero and main*/
 .hero-section{
 text-align: center;
