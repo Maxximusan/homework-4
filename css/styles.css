@@ -144,6 +144,8 @@ padding-bottom: 32px;
 .header-contacts:focus{
     color: #2196F3;
 }
+
+/* hero and main*/
 .hero-section{
 text-align: center;
 padding-top: 200px;
@@ -151,7 +153,7 @@ padding-bottom: 200px;
 
 
 }
-
+/* фон героя */
     .overlay{
     max-width: 1600px;
     max-height: 600px;
@@ -165,7 +167,7 @@ padding-bottom: 200px;
     }
 
 
-/* hero and main*/
+
 .hero-header{
 font-weight: 900;
 font-size: 44px;
@@ -248,6 +250,7 @@ margin-bottom: 50px;
 .list-team{
     display: flex;
     justify-content: space-between;
+    background-color: #FFFFFF;
 }
 .border{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -275,7 +278,45 @@ margin-bottom: 10px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 16px;
+}
 
+
+.socials{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.social-item{
+    margin-right: 10px;
+}
+.social-item:last-child{
+margin: 0;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.social-link:hover,
+.social-link:focus{
+    background-color: #2196F3;
+}
+.social-icon{
+    fill: #AFB1B8;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill: #FFFFFF;
 }
 /* постоянные клиенты */
 .icon-border{
