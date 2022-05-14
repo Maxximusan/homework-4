@@ -215,6 +215,7 @@ margin-bottom: 30px;
     padding-left: 32px;
 
 }
+/* наши преимущества */
 .benefits-section{
     padding-top: 94px;
   
@@ -246,6 +247,23 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
+}
+.icon-box{
+    background-color: #F5F4FA;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+}
+
+
+.icon-benefits{
+    fill: #212121;
+    
 }
 
 
@@ -331,17 +349,50 @@ margin: 0;
 }
 .social-icon{
     fill: #AFB1B8;
+    
+}
+.cliens-icon{
+    fill: #AFB1B8;
+width: 106px;
 }
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
     fill: #FFFFFF;
 }
 /* постоянные клиенты */
+.our-clients{
+    padding-top: 94px;
+        padding-bottom: 94px;
+}
+.list-clients{
+    display: flex;
+    align-items: center;
+}
 .icon-border{
     width: 170px;
-        height: 92px;
+     height: 92px;
+
+    margin-right: 30px;
+
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+
     border: 1px solid #AFB1B8;
-        border-radius: 4px;
+   border-radius: 4px;
+}
+
+.icon-border:last-child{
+    margin: 0;
+}
+.icon-border:hover,
+.icon-border:focus{
+color: #2196F3;
+}
+.icon-border:hover .cliens-icon,
+.icon-border:focus .cliens-icon{
+    fill: #2196F3;
 }
 
 /* бэкграунд */
@@ -390,8 +441,58 @@ margin-bottom: 9px;
     margin-bottom: 9px;
    
 }
+.footer-flex{
+    display: flex;
+    align-items: baseline;
+}
+.social-list{
+    display: flex;
+    }
 
+.join{
+     color: #FFFFFF;
+    font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+      text-transform: uppercase;
+      
+      margin-bottom: 20px;
 
+}
+
+.fsocial-link{
+    display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 44px;
+         height: 44px;
+        
+        border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+}
+.fsocial-link:hover,
+.fsocial-link:focus{
+background-color: #2196F3;
+}
+
+.fsocial-icon{
+    fill: #FFFFFF;
+}
+/* .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background-color: #FFFFFF;
+} */
+.footer-info{
+    margin-right: 70px;
+}
 /* портфолио*/
 .line{
     border-bottom: 1px solid #ECECEC;
@@ -451,10 +552,14 @@ color: #FFFFFF;
 .img-item{
     margin-bottom: 30px;
 }
+
 .img-item:nth-child(n + 7){
 margin: 0;
 }
 
+.img-item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-item{
     padding-top: 20px;
     padding-right: 24px;
